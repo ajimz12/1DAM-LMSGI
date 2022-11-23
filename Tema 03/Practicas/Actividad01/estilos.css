@@ -11,9 +11,10 @@ table{
 
     text-align: center;
     border: 1px solid black;
-    width: 60%;
+    width: 40%;
     margin: auto;
     border-spacing: 0;
+    font-weight: bold;
 
 }
 
@@ -45,6 +46,35 @@ img{
 
 }
 
+.grisypaddingGB{
+
+    background-color: grey;
+    font-size: 200%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+
+
+
+}
+
 #fondoblanco{
     background-color: white;
 }
+
+#cincohoras{
+
+    background-color: yellow;
+    padding-top: 7%;
+    padding-bottom: 7%;
+
+}
+
+.colorAzul {
+
+    background-color: #a09cd4
+    ;
+
+
+
+}
+
