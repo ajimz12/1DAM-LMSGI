@@ -49,8 +49,26 @@ tr:first-child::first-letter{
 
     color: red;
 
+}
+
+
+
+td:not(.recreo){
+
+    text-transform: uppercase;
+
 
 }
+
+
+td:last-child:hover:not(.recreo){
+
+font-size: 20px;
+
+
+}
+
+
 
 
 
@@ -58,7 +76,6 @@ tr:first-child::first-letter{
 
     background-color: blue;
     color: white;
-
 
 }
 
@@ -75,6 +92,29 @@ color: red;
 color: green;
 
 }
+
+.inputtext{
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: pink;
+
+
+}
+
+.inputtext:focus{
+
+    background-color: yellow;
+
+}
+
+
+
+
+
+
+
 
 
 
