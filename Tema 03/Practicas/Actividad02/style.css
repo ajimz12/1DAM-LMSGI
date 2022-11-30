@@ -1,0 +1,82 @@
+*{
+
+
+
+
+}
+
+h1,h2{
+
+    text-align: center;
+
+}
+
+
+
+table{
+
+    text-align: center;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    border-spacing: 0;
+    
+
+}
+
+td,tr,th{
+
+    border: 1px solid black;
+    border-spacing: 0;
+
+
+}
+
+td:first-child:not(.primeracelda,.recreo){
+
+    color: orange;
+
+}
+
+
+tr:first-child{
+
+    font-weight: bold;
+
+}
+
+tr:first-child::first-letter{
+
+    color: red;
+
+
+}
+
+
+
+.recreo{
+
+    background-color: blue;
+    color: white;
+
+
+}
+
+
+.rojo{
+
+color: red;
+
+}
+
+
+.verde{
+
+color: green;
+
+}
+
+
+
+
+
