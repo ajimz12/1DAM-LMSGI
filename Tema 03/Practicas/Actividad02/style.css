@@ -45,20 +45,27 @@ tr:first-child{
 
 }
 
-tr:first-child::first-letter{
+
+
+
+.primerafila::first-letter{
 
     color: red;
+    font-size: 150%;
+
 
 }
 
 
 
-td:not(.recreo){
+
+td:not(.recreo,.primerafila){
 
     text-transform: uppercase;
 
 
 }
+
 
 
 td:last-child:hover:not(.recreo){
@@ -92,6 +99,8 @@ color: red;
 color: green;
 
 }
+
+
 
 .inputtext{
 
