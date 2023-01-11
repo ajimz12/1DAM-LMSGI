@@ -88,9 +88,10 @@ nav button:hover{
 #personal{
 
     display: flex;
-    justify-content: right;
+    justify-content: center;
     font-size: 150%;
-    margin-left: 60%;
+    margin-left: 50%;
+    margin-bottom: 7%;
     
 }
 
@@ -105,6 +106,8 @@ nav button:hover{
 #sobre-mi h2{
 
     margin-left: 37% ;
+    text-decoration: overline;
+
 
 }
 
@@ -113,4 +116,25 @@ nav button:hover{
     text-align: center;
 
 }
+
+#skills{
+
+    display: flex;
+    justify-content: left;
+    font-size: 150%;
+    margin-left: 25%;
+    margin-right: 10%;
+
+}
+
+#skills img{
+
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-right: 10%;
+
+}
+
+
 
