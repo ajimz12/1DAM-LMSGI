@@ -1,0 +1,43 @@
+*{
+
+    background-color: rgb(200, 200, 235);
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+
+background-color: blueviolet;
+text-align: center;
+padding: 40px;
+word-spacing: 30px;
+border-radius: 20px;
+
+}
+
+img{
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 300px;
+    width: 300px;
+
+}
+
+header{
+
+    text-align: center;
+
+}
+
+a{
+
+    background-color:  rgb(200, 200, 235);
+    color: black;
+}
+
+nav button{
+
+    background-color: rgb(200, 200, 235);
+
+}
