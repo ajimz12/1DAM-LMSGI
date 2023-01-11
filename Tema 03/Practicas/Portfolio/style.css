@@ -30,7 +30,6 @@ header img{
 }
 
 
-
 a{
 
     background-color:  transparent;
@@ -53,8 +52,6 @@ nav button, a{
     margin-right: 5%;
     color: black;
     
-    
-
 }
 
 nav button:hover{
@@ -62,6 +59,28 @@ nav button:hover{
     background-color: rgb(202, 132, 240);
     color: white;
     
+}
+
+#cabecera h2{
+
+    text-align: center;
+    font-size: 200%;
+
+}
+
+#cabecera h2:hover{
+
+    font-size: 250%;
+    cursor: pointer;
+
+}
+
+
+
+#cabecera blockquote{
+
+    text-align: center;
+    font-size: 120%;
 
 }
 
@@ -71,28 +90,27 @@ nav button:hover{
     display: flex;
     justify-content: right;
     font-size: 150%;
-}
-
-
-#cabecera h2{
-
-    text-align: center;
-    font-size: 200%;
-}
-
-#cabecera blockquote{
-
-    text-align: center;
-    font-size: 120%;
-
-
+    margin-left: 60%;
+    
 }
 
 
 #personal img{
 
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 50%;
+
+}
+
+#sobre-mi h2{
+
+    margin-left: 37% ;
+
+}
+
+#sobre-mi p{
+
+    text-align: center;
 
 }
 
