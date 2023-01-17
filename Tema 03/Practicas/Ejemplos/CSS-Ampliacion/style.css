@@ -1,0 +1,23 @@
+.square{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 200px;
+    transition: color 3s, height 3s;
+    color: blue;
+    background-color: rgb(168, 168, 221);
+
+  }
+
+
+  .square:hover{
+
+    color: red;
+    height: 300px;
+    cursor: pointer;
+
+  }
+
