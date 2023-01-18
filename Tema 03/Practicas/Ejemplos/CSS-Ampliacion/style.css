@@ -7,7 +7,7 @@
     text-align: center;
     width: 100px;
     height: 200px;
-    transition: color 3s, height 3s;
+    transition: color 3s, height 2s;
     color: blue;
     background-color: rgb(168, 168, 221);
 
