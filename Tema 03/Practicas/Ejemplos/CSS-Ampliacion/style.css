@@ -6,7 +6,7 @@ h2{
 }
 
 
-.square{
+#square{
 
     position: absolute;
     top: 50%;
@@ -22,7 +22,7 @@ h2{
   }
   
 
-  .square:hover{
+  #square:hover{
 
     color: red;
     height: 100px;
