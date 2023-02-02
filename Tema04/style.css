@@ -20,8 +20,18 @@ nav{
 
 h1{
 
-    text-align: center
+    text-align: center;
+    color: black;
+    transition: color 1s, font-size: 10%;
+    
+}
 
+
+h1:hover{
+
+    color: red;
+    cursor: pointer;
+    font-size: 200%;
 
 }
 
@@ -66,7 +76,7 @@ text-align:  left;
 
 }
 #iconos>p{
-    
+
     text-align:  right;  
 }
 
