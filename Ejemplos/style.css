@@ -7,6 +7,8 @@
 header{
 
     background-image: url(img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 0;
     margin: 0;
     width: 100%;
@@ -79,6 +81,7 @@ nav{
 
   }
 
+
   .imgs{
 
     display: flex;
@@ -98,9 +101,38 @@ nav{
   .titles{
 
     color: #668839;
+    font-size: 150%;
+
+  }
+
+  main>p{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 120%;
+
+  }
+
+
+  footer{
+
+    border: 0;
+    margin: 0;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 
 
   }
+
+  footer>img{
+
+    width: 10%;
+    height: 60%;
+    margin-left: 85%;
+    margin-top: -10%;
+  }
+
 
 
 
