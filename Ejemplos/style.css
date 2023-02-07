@@ -4,6 +4,40 @@
 
 }
 
+nav{
+
+    text-align: center;
+    display: inline-block;
+    margin-top: -2%;
+    padding: 2%;
+    width: 100%;
+    background-color: #99ce55;
+    position: fixed;
+    z-index: 100;
+    padding-top: 4%;
+
+  }
+
+nav>a{
+
+    text-decoration: none;  
+    color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+    transition: color 0.5s;
+
+  }
+
+nav>a:hover{
+
+    color: white;
+    border-bottom: white;
+    border-bottom: 4px solid;
+    padding-bottom: 1.7%;
+
+  }
+
+
 header{
 
     background-image: url(img/header.jpg);
@@ -15,6 +49,7 @@ header{
     height: 300px;
     padding-bottom: 5%;
     margin-bottom: 3%;
+    padding-top: 1%;
 }
 
 body{
@@ -22,14 +57,6 @@ body{
     margin: 0;
 }
 
-footer{
-
-    color: white;
-    background-color: black;
-    width: 100%;
-    height: 100px;
-
-}
 
 main{
 
@@ -40,48 +67,16 @@ main{
 
 .TituloHeader{
 
-    position: absolute;
+    
     text-align: center;
-    width: 50%;
-    top: 15%;
-    left: 25%;
-    right: 50%;
+    position: relative;
+    top: 50%;
 
 }
 
-nav{
-
-    text-align: center;
-    display: inline-block;
-    padding: 2%;
-    width: 100%;
-    background-color: #99ce55;
-    position: fixed;
-    z-index: 100;
-
-  }
-
-  nav>a{
-
-    text-decoration: none;  
-    color: black;
-    margin-left: 1%;
-    margin-right: 1%;
-    transition: color 0.5s;
-    
-  }
-
-  nav>a:hover{
-
-    color: white;
-    border-bottom: white;
-    border-bottom: 4px solid;
-    padding-bottom: 1.7%;
-
-  }
 
 
-  .imgs{
+.imgs{
 
     display: flex;
     margin-left: 10%;
@@ -89,21 +84,21 @@ nav{
     
   }
 
-  .imgs>img{
+.imgs>img{
 
     transition: box-shadow 0.5s;
 
 
   }
 
-  .imgs>img:hover{
+.imgs>img:hover{
 
     box-shadow: -19px -14px 0px 2px #7ea846;
     cursor: pointer;
 
   }
 
-  .filaimgs{
+.filaimgs{
 
     width: 20%;
     height: 20%;
@@ -113,14 +108,14 @@ nav{
     border-style:initial;
   }
 
-  .titles{
+.titles{
 
     color: #668839;
     font-size: 150%;
 
   }
 
-  .equipo{
+.equipo{
 
     background-image: url(img/agricultor2.jpeg);
     background-repeat: no-repeat;
@@ -128,15 +123,45 @@ nav{
     border: 0;
     margin: 0;
     width: 100%;
-    height: 500px;
+    height: 600px;
     padding-top: 3% ;
     padding-bottom: 3% ;
     margin-bottom: 5%;
 
   }
 
+.equipo>p{
 
-  main>p{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 120%;
+
+  }
+
+.filosofia{
+
+    background-image: url(img/agricultorfondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    height: 700px;
+    padding-top: 3% ;
+    padding-bottom: 3% ;
+    margin-bottom: 5%;
+
+  }
+
+.filosofia>p{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 120%;
+
+  }
+
+main>p{
 
     margin-left: 10%;
     margin-right: 10%;
@@ -146,13 +171,14 @@ nav{
 
   iframe{
 
-    padding-top: 2%;
-    padding-bottom: 2%;
-
+    padding-bottom: 1%;
+    padding-top: 1%;
 
   }
 
-  #lema{
+
+
+#lema{
 
     font-style: italic;
     padding-bottom: 2%;
@@ -161,8 +187,11 @@ nav{
   }
 
 
-  footer{
+footer{
 
+    color: white;
+    background-color: black;
+    text-align: center;
     border: 0;
     margin: 0;
     width: 100%;
@@ -171,54 +200,64 @@ nav{
     padding-bottom: 1%;
   }
 
-  footer>img{
 
-    width: 10%;
+footer>img{
+
+    width: 5%;
     height: 100%;
-    margin-left: 85%;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 3%;
+
   }
 
-  span>a{
+
+
+span>a{
 
     text-decoration: none;
 
   }
 
 
-  .colorVerde{
+.colorVerde{
 
     color: green;
 
   }
 
-  i{
+i{
 
   color: white;
 
   }
 
-  #iconos{
+#iconos{
 
   display: flex;
   padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 46%;
+  margin-right: 10%;
 
 }
 
-  i,a{
+i,a{
 
   margin-right: 2% ;
   transition: color 0.5s;
 
 }
 
-  #face:hover{
+#face:hover{
 
   color: rgb(5, 5, 162);
   cursor: pointer;
 
 }
 
-  #goog:hover{
+#goog:hover{
 
   color: rgb(227, 248, 70) ;
   cursor: pointer;
@@ -226,20 +265,31 @@ nav{
 
 }
 
-  #youtb:hover{
+#youtb:hover{
 
   color: red;
   cursor: pointer;
 
 }
 
-  @media (max-width: 700px){
+@media (max-width: 800px){
 
   nav{
 
     flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: static;
 
   }
+
+  .TituloHeader{
+
+    position: relative;
+    text-align: center;
+    top: 10%;
+   
+    }
 
 }
 
