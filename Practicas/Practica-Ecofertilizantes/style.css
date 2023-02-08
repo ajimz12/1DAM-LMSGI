@@ -272,26 +272,7 @@ i,a{
 
 }
 
-@media (max-width: 800px){
 
-  nav{
-
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    position: static;
-
-  }
-
-  .TituloHeader{
-
-    position: relative;
-    text-align: center;
-    top: 10%;
-   
-    }
-
-}
 
 
 
