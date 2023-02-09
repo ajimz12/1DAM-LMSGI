@@ -1,0 +1,42 @@
+/*
+.color1 {color: #ffcf42;}
+.color2 {color: #ece063;}
+.color3 {color: #002da5;}
+.color4 {color: #0088ff;}
+.color5 {color: #89f9ff;}
+*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+
+    background-color: #a0f7fc;
+
+}
+
+nav{
+
+    background-color: black;
+    position: sticky;
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    height: 50px;
+    padding-top: 2%;
+    font-family: 'Press Start 2P';
+    font-size: 80%;
+}
+
+nav>a{
+
+    color: white;
+    text-decoration: none;
+    margin-right: 5%;
+   
+}
