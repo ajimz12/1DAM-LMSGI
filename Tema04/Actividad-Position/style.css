@@ -38,5 +38,54 @@ nav>a{
     color: white;
     text-decoration: none;
     margin-right: 5%;
+    transition: color 0.2s;
    
 }
+
+nav>img{
+
+    position: absolute;
+    height: 70px;
+    width: 5%;
+    right: 93%;
+    top: 1%;
+    z-index: auto;
+
+}
+
+nav>p{
+
+    position: absolute;
+    color: white;
+    right: 83%;
+    top: 40%;
+    text-decoration: underline;
+
+}
+
+nav>a:hover{
+
+    color: #5a8e91;
+
+}
+
+#bienvenida{
+
+    font-family: 'Press Start 2P';
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+#bienvenida>p{
+
+    color: rgb(176, 4, 4);
+
+}
+
+main>i{
+
+    color: rgb(4, 4, 141);
+
+}
+
