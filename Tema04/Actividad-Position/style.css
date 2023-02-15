@@ -16,7 +16,7 @@
 
 body{
 
-    background-color: #a0f7fc;
+    background-color: #abf0f7;
 
 }
 
@@ -24,20 +24,23 @@ nav{
 
     background-color: black;
     position: sticky;
+    top: 0;
     display: inline-block;
-    text-align: right;
+    text-align: center;
     width: 100%;
     height: 50px;
     padding-top: 2%;
-    font-family: 'Press Start 2P';
-    font-size: 80%;
+    font-size: 100%;
+    z-index: 100;
 }
 
 nav>a{
 
     color: white;
     text-decoration: none;
+    font-family: 'Press Start 2P';
     margin-right: 5%;
+    margin-left: 5%;
     transition: color 0.2s;
    
 }
@@ -71,10 +74,15 @@ nav>a:hover{
 
 #bienvenida{
 
-    font-family: 'Press Start 2P';
+    position: relative;
+    width: 50%;
     text-align: center;
     padding-top: 2%;
-
+    top: 10%;
+    right: 100%;
+    left: 25%;
+    font-family: 'Press Start 2P';
+   
 }
 
 #bienvenida>p{
@@ -83,9 +91,224 @@ nav>a:hover{
 
 }
 
-main>i{
 
-    color: rgb(4, 4, 141);
+
+#LogosConsolas{
+
+    position: fixed;
+    width: 10%;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 10%;
+    padding:1%;
+    background-color: #ffcf42;
+    margin-left: 1%;
+    margin-top: 2%;
+    z-index: 100;
+
+}
+
+#logos{
+
+    flex-direction: column;
+    display: flex;
+    padding-top: 5%;
+
+}
+
+#logos>a{
+
+    text-align: center;
+
+}
+
+#logoplay{
+
+    height: 40%;
+    width: 40%;
+    padding-bottom: 10%;
+    transform: rotate(0deg);
+    transition: transform 1s;
+}
+
+#logoplay:hover{
+
+    transform: rotate(30deg);
+}
+
+
+#logoxbox{
+
+    height: 30%;
+    width: 30%;
+    padding-bottom: 10%;
+    transform: rotate(0deg);
+    transition: transform 1s;
+}
+
+#logoxbox:hover{
+
+    transform: rotate(30deg);
+}
+
+#logopc{
+
+    height: 35%;
+    width: 35%;
+    padding-bottom:5%;
+    transform: rotate(0deg);
+    transition: transform 1s;
+
+}
+
+#logopc:hover{
+
+    transform: rotate(30deg);
+}
+
+#sobrenosotros{
+
+    margin-top: 7%;
+    margin-right: 5%;
+    margin-left: 28%;
+    width: 40%;
+    text-align: center;
+    font-size: 140%;
+    font-weight: bold;
+    padding: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#logoAlien{
+
+    height: 20%;
+    width: 10%;
+    position: absolute;
+    left: 80%;
+    top: 32%;
+    transform: rotate(0deg);
+    transition: transform 1s;
+
+}
+
+#logoAlien:hover{
+
+    transform: rotate(360deg);
+
+}
+
+#seccionJuegos{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 8%;
+
+}
+
+#seccionJuegos>h1{
+
+    text-align: center;
+    font-size: 200%;
+    padding-bottom: 1%;
+
+}
+
+#seccionJuegos>p{
+
+    text-align: center;
+    font-size: 140%;
+
+}
+
+#seccionJuegos>div{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+#seccionJuegos>article>img{
+
+    width: 10%;
+    height: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+#seccionJuegos>article{
+
+    padding-top: 2%;
+    padding-bottom: 4%;
+    margin-left: 8%;
+
+}
+
+#goombaimg{
+
+    transform: rotate(10deg);
+
+}
+
+#pacmanimg{
+
+    transform: rotate(30deg);
+
+}
+
+#sonicimg{
+
+    transform: rotate(60deg);
+}
+
+.juegosconsolas>img{
+
+    width: 20%;
+    height: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 6%;
+    transition: width 0.5s, height 0.5s;
+
+}
+
+.juegosconsolas>img:hover{
+
+    cursor: pointer;
+    width: 25%;
+    height: 25%;
+
+}
+
+footer{
+
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P';
+    text-align: center;
+    padding: 5%;
+    
+}
+
+footer>p{
+
+    padding-bottom: 3%;
+
+}
+
+footer>section{
+
+    padding-bottom: 3%;
+
+}
+
+
+
+.colorRojo{
+
+    color: #92110d;
 
 }
 
