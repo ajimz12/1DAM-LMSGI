@@ -1,0 +1,49 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+article{
+
+    background-color: red;
+    float: left;
+    height: 300px;
+    margin-left: 5%;
+    width: 20%;
+
+}
+
+footer{
+
+    background-color: blue;
+    float: left;
+    height: 290px;
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 70%;
+
+}
+
+
+.contenedor{
+
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 20px;
+    overflow-y: auto;
+    width: 90%;
+
+}
+
+.barralateral{
+
+    background-color: yellow;
+    float: left;
+    width: 25%;
+    height: 600px;
+
+}
+
