@@ -1,0 +1,40 @@
+.container{
+
+    background-color: lightgray;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.container>div{
+
+    padding: 5%;
+    width: 70%;
+    
+}
+
+div>img{
+
+    height: 5%;
+    width: 5%;
+
+}
+
+#p{
+
+    background-color: lightskyblue;
+
+}
+
+#s{
+
+    background-color: aqua;
+
+}
+
+#t{
+
+    background-color: blueviolet;
+
+}

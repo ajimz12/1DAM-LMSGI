@@ -1,0 +1,59 @@
+/*
+.color1 {color: #ff009f;}
+.color2 {color: #ff6d55;}
+.color3 {color: #ffcc54;}
+.color4 {color: #f0ffac;}
+.color5 {color: #cbffff;}
+*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;;
+}
+
+
+h1{
+
+    text-align: center;
+    margin: 20px;
+
+}
+
+nav{
+
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 70%;
+    margin: auto;
+    padding: 1%;
+
+}
+
+nav a{
+
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+
+}
+
+nav a:hover{
+
+    background-color: white;
+
+}
+
+
+nav li{
+
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+
+    
+}
+
