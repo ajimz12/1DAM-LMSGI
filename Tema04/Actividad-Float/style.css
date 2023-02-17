@@ -1,11 +1,3 @@
-/*
-.color1 {color: #ff009f;}
-.color2 {color: #ff6d55;}
-.color3 {color: #ffcc54;}
-.color4 {color: #f0ffac;}
-.color5 {color: #cbffff;}
-*/
-
 *{
 
     margin: 0;
@@ -20,6 +12,14 @@ h1{
     text-align: center;
     margin: 20px;
     color: #1B1717;
+    font-size: 300%;
+}
+
+h1 img{
+
+    width: 10%;
+    height: 10%;
+    transform: rotate(30deg);
 }
 
 nav{
@@ -107,9 +107,31 @@ section{
 footer{
 
     background-color: #1B1717;
+    color: white;
+    text-align: center;
     float: left;
     width: 100%;
     height: 100%;
+    padding: 1%;
+}
+
+footer p{
+
+    padding: 1%;
+
+}
+
+footer a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+footer a:hover{
+
+    color: rgb(136, 42, 136);
+
 }
 
 
@@ -151,6 +173,7 @@ footer{
 .colorRojo{
 
     color: #810000;
+    font-weight: bold;
 
 }
 
