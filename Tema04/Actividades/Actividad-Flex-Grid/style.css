@@ -1,0 +1,154 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    font-family: 'Black Ops One';
+    background-color: #000000;
+    padding-bottom: 5%;
+    color: white;
+    margin-bottom: 10%;
+}
+
+
+header a{
+
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+
+    color:#a80038;
+
+}
+
+
+header hgroup{
+
+    color: white;    
+    text-align: center;
+    font-size: 1.7em;
+}
+
+ul.navegacion{
+
+    padding-top: 5%;
+
+}
+
+ul.navegacion li{
+
+    display: inline;
+    padding-right: 0.5em;
+    font-size: 1.3em;
+}
+
+
+header img{
+
+    width: 200px;
+    height: 200px;
+}
+
+header button{
+
+    border: 1px solid white;
+    color: white;
+    font-size: 1em;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2%;
+    padding: 1%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header button:hover{
+
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+main hgroup{
+
+    color: #fd0054;
+    font-family: 'Black Ops One';
+    padding-bottom: 2%;
+    font-size: 1.5em;
+
+}
+
+
+
+.seccionmain{
+
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.seccionmain p{
+
+    font-family: 'Kanit', sans-serif;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-weight: bold;
+    padding-bottom: 8%;
+    font-size: 1.3em;
+
+}
+
+.seccionmain img{
+
+    border-radius: 7%;
+    width: 40%;
+    height: 40%;
+
+}
+
+#cabecera{
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+
+#partners{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 8%;
+}
+
+#partners img{
+
+    width: 80%;
+    height: 80%;
+
+}
+
+#patrocinios{
+
+    display: flex;
+    padding-top: 5%;
+
+}
+
+#patrocinios img{
+
+    width: 10%;
+    height: 10%;
+    margin: 0 auto;
+
+}
+
+
+
+
+
