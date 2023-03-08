@@ -1,0 +1,29 @@
+
+//FUENTES
+
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+font-family: 'Black Ops One', cursive;
+font-family: 'Kanit', sans-serif;
+
+//PALETA COLORES WEB
+
+.first-color { 
+	background: #fbf9fa; 
+}
+	
+.second-color { 
+	background: #fd0054; 
+}
+
+.third-color { 
+	background: #a80038; 
+}
+
+.fourth-color { 
+	background: #2b2024; 
+}
+
+//
+
