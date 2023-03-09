@@ -23,7 +23,6 @@ header a{
 header a:hover{
 
     color:#a80038;
-
 }
 
 
@@ -46,7 +45,6 @@ ul.navegacion li{
     padding-right: 0.5em;
     font-size: 1.3em;
 }
-
 
 header img{
 
@@ -76,16 +74,22 @@ header button:hover{
 }
 
 
+/*FOOTER*/
+
+footer{
+
+    background-color: #000000;
+}
+
+/*MAIN*/
+
 main hgroup{
 
     color: #fd0054;
     font-family: 'Black Ops One';
     padding-bottom: 2%;
     font-size: 1.5em;
-
 }
-
-
 
 .seccionmain{
 
@@ -101,16 +105,16 @@ main hgroup{
     font-weight: bold;
     padding-bottom: 8%;
     font-size: 1.3em;
-
 }
 
 .seccionmain img{
 
     border-radius: 7%;
-    width: 40%;
-    height: 40%;
-
+    width: 30%;
+    height: 30%;
 }
+
+/*CABECERA*/
 
 #cabecera{
 
@@ -118,34 +122,48 @@ main hgroup{
     grid-template-columns: 3fr 1fr;
 }
 
+/*PERSONAL*/
 
 #partners{
 
     display: grid;
+    margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 8%;
+}
+
+#partners h1{
+
+    font-family: 'Black Ops One';
+    padding-bottom: 1%;
+    font-size: 2em;
 }
 
 #partners img{
 
     width: 80%;
     height: 80%;
-
+    margin: 0 auto;
+    margin-left: 12% ;
 }
+
+
+
+
+/*PATROCINADORES*/
 
 #patrocinios{
 
     display: flex;
-    padding-top: 5%;
-
+    padding-top: 1%;
 }
+
 
 #patrocinios img{
 
     width: 10%;
     height: 10%;
     margin: 0 auto;
-
+    
 }
 
 
