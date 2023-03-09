@@ -36,6 +36,7 @@ header hgroup{
 ul.navegacion{
 
     padding-top: 5%;
+    margin-left: 65%;
 
 }
 
@@ -73,6 +74,13 @@ header button:hover{
     cursor: pointer;
 }
 
+#cabecera{
+
+    display: grid;
+    grid-template-columns: 0fr 1fr 1fr;
+}
+
+
 
 
 /*MAIN*/
@@ -108,13 +116,6 @@ main hgroup{
     height: 30%;
 }
 
-/*CABECERA*/
-
-#cabecera{
-
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-}
 
 /*PERSONAL*/
 
