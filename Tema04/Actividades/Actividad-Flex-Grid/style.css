@@ -146,8 +146,22 @@ main hgroup{
     margin-left: 12% ;
 }
 
+.redes{
 
+    margin-left: 5%;
+}
 
+.redes i{
+
+    margin-right: 3%;
+    transition: color 0.4s;
+    color: #000000;
+}
+
+.redes i:hover{
+
+    color: #fd0054;
+}
 
 /*PATROCINADORES*/
 
@@ -165,6 +179,97 @@ main hgroup{
     margin: 0 auto;
     
 }
+
+/*CONTACTO*/
+
+.formulario {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4%;
+    border: 2px solid black;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    padding: 10%;
+    margin-left: 25%;
+    margin-right: 25%;    
+  }
+  
+  form {
+
+    display: grid;
+    gap: 10%;
+    grid-column: 1 / 2;
+    grid-template-columns: 1fr;
+    
+  }
+
+  input{
+
+    height: 5em;
+    padding: 2%;
+    font-size: 1.2em;
+    font-family: 'Kanit', sans-serif;
+
+  }
+  
+  textarea {
+
+    height: 10em;
+    padding: 3%;
+    font-size: 1.2em;
+    font-family: 'Kanit', sans-serif;
+
+  }
+  
+  .formulario button {
+
+    color: black;
+    padding: 5%;
+    margin-right: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2em;
+  }
+
+  .formulario button:hover{
+
+    background-color: #fd0054;
+    color: white;
+  }
+  
+  .datos {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;    
+  }
+  
+  .datos i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+
+  .datos p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+  
+  #contacto{
+
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #contacto p{
+
+    padding-bottom: 3%;
+    font-size: 1.4em;
+
+  }
+
 
 
 
