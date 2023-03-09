@@ -147,7 +147,7 @@ main hgroup{
 
 .redes i{
 
-    margin-right: 3%;
+
     transition: color 0.4s;
     color: #000000;
 }
@@ -265,7 +265,48 @@ main hgroup{
 
   }
 
-  /*FOOTER*/
+    /*TIENDA*/
+
+#vinilos{
+
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#vinilos h1{
+
+    font-family: 'Black Ops One';
+    padding-bottom: 3%;
+    font-size: 2em;
+}
+
+#vinilos img{
+
+    width: 70%;
+    height: 70%;
+    margin-left: 12% ;
+}
+
+/*BANDAS*/
+
+#bandas{
+
+        display: flex;
+        padding-top: 1%;
+}
+    
+    
+#bandas img{
+    
+        width: 20%;
+        height: 20%;
+        margin: 0 auto;
+        padding-top: 3%;
+        
+}
+
+/*FOOTER*/
 
 footer{
 
