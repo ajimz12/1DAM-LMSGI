@@ -4,105 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/c250495bcb.js" crossorigin="anonymous"></script>
     <title>MetalMania - Tu web musical</title>
 </head>
 <body>
 
-    <main class="main">
+    <div class="main-container">
 
-        
         <section class="menu">
 
-
-            <div class="menu-izq">
-
+            <article class="menu-left">
+                
                 <ul>
 
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">MÚSICA</a></li>
+                    <li>
+                        <a href="#">INICIO</a>
+                    </li>
+
+                    <li>
+                        <a href="#musica">MÚSICA</a>
+                    </li>
 
                 </ul>
 
-            </div>
+            </article>
 
             <div class="logo">
 
-                <img src="img/logo.png" alt="logo">
-
+                <img src="img/logo.png" width="70%" alt="">
 
             </div>
 
-            <div class="menu-dcha">
+            <article class="menu-right">
 
                 <ul>
 
-                    <li><a href="#">NOSOTROS</a></li>
-                    <li><a href="#">CONTACTO</a></li>
+                    <li>
+                        <a href="#nosotros">NOSOTROS</a>
+                    </li>
+
+                    <li>
+                        <a href="#contacto">CONTACTO</a>
+                    </li>
 
                 </ul>
 
-            </div>
-
-
+            </article>
 
         </section>
 
 
-        <section class="menu-movil">
+        <section class="menu-mobile">
 
-
-            <div class="menu-abre-cierra">
+            <article class="menu-open-close">
 
                 <section class="header">
 
+                    <a href="" class="logo"><img src="img/logo.png" width="64" alt=""></a>
 
-                    <a href="#" class="logo">
+                    <a href="#" id="buttonOpenCloseMenu">
 
-                        <img src="img/logo.png" alt="logo">
-
-                    </a>
-
-
-                    <a href="#" class="botonHamburguer">
-
-
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
-
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
 
                     </a>
-
 
                 </section>
 
+                <article id="menu-mobile-items" class="menu-mobile-closed">
 
-                <section id="menu-movil-items" class="menu-movil-cierra">
+                    <ul >
+                        <li>
+                            <a href="#">INICIO</a>
+                        </li>
 
-                    <ul>
+                        <li>
+                            <a href="#musica">MÚSICA</a>
+                        </li>
 
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">MÚSICA</a></li>
-                        <li><a href="#">SOBRE NOSOTROS</a></li>
-                        <li><a href="#">CONTACTO</a></li>
+                        <li>
+                            <a href="#nosotros">NOSOTROS</a>
+                        </li>
+
+                        <li>
+                            <a href="#contacto">CONTACTO</a>
+                        </li>
 
                     </ul>
 
+                </article>
 
-                </section>
-
-            </div>
-
-
+            </article>
 
         </section>
 
+
+
         <section class="main-video">
+
 
             <div class="video">
 
@@ -117,14 +123,14 @@
 
         <section class="intro">
 
-            <h2>MetalMania</h2>
+            <h1>MetalMania</h1>
             <h2>Tu Web Musical</h2>
             <p>Donde encontararás gran variedad de información sobre tu musica favorita</p>
 
         </section>
 
 
-        <section>
+        <section id="musica">
 
             <h2>MÚSICA</h2>
 
@@ -149,7 +155,7 @@
 
                 </a>
 
-                <a href="#" class="item" data-id="0">
+                <a href="#" class="item" data-id="1">
 
                     <img src="img/megadeth.jpg" width="100%" alt="portada02">
 
@@ -168,7 +174,7 @@
 
                 </a>
 
-                <a href="#" class="item" data-id="0">
+                <a href="#" class="item" data-id="2">
 
                     <img src="img/linkinpark.jpg" width="100%" alt="portada03">
 
@@ -187,7 +193,7 @@
 
                 </a>
 
-                <a href="#" class="item" data-id="0">
+                <a href="#" class="item" data-id="3">
 
                     <img src="img/slipknot.jpg" width="100%" alt="portada04">
 
@@ -196,7 +202,6 @@
                         <article class="info">
 
                             <div class="titulo">SLIPKNOT</div>
-                            <div class="subtitulo">1999</div>
 
 
                         </article>
@@ -206,7 +211,7 @@
 
                 </a>
 
-                <a href="#" class="item" data-id="0">
+                <a href="#" class="item" data-id="4">
 
                     <img src="img/gunsnroses.jpg" width="100%" alt="portada05">
 
@@ -225,7 +230,7 @@
 
                 </a>
 
-                <a href="#" class="item" data-id="0">
+                <a href="#" class="item" data-id="5">
 
                     <img src="img/cannibalcorpse.jpg" width="100%" alt="portada06">
 
@@ -244,7 +249,7 @@
 
                 </a>
 
-                <a href="#" class="item" data-id="0">
+                <a href="#" class="item" data-id="6">
 
                     <img src="img/korn.jpg" width="100%" alt="portada07">
 
@@ -253,7 +258,6 @@
                         <article class="info">
 
                             <div class="titulo">KORN</div>
-                            <div class="subtitulo">KORN</div>
 
 
                         </article>
@@ -263,7 +267,7 @@
 
                 </a>
 
-                <a href="#" class="item" data-id="0">
+                <a href="#" class="item" data-id="7">
 
                     <img src="img/nirvana.jpg" width="100%" alt="portada08">
 
@@ -282,7 +286,7 @@
 
                 </a>
 
-                <a href="#" class="item" data-id="0">
+                <a href="#" class="item" data-id="8">
 
                     <img src="img/blacksabbath.jpg" width="100%" alt="portada09">
 
@@ -301,7 +305,8 @@
 
                 </a>
 
-                <a href="#" class="item" data-id="0">
+
+                <a href="#" class="item" data-id="9">
 
                     <img src="img/ironmaiden.jpg" width="100%" alt="portada10">
 
@@ -320,12 +325,13 @@
 
                 </a>
 
+
             </div>
 
         </section>
 
 
-        <section class="sobrenosotros">
+        <section class="nosotros" id="nosotros">
 
             <h2>NUESTRA HISTORIA</h2>
             <p>EXPERTOS EN MÚSICA DESDE HACE MÁS DE 30 AÑOS</p>
@@ -341,7 +347,7 @@
 
                 <article>
 
-                    <h3>SABÍDURIA</h3>
+                    <h3>SABIDURÍA</h3>
                     <p>Llevamos más de 3 décadas haciendo de este mundo musical uno mejor y más grande, atrayendo más público y siendo mejores día a día</p>
 
                 </article>
@@ -360,9 +366,9 @@
         </section>
 
         
-        <section class="contacto">
+        <section class="contacto" id="contacto">
 
-            <article class="contacto container">
+            <article class="contacto-container">
 
                 <h2>¡CONTÁCTANOS!</h2>
 
@@ -400,9 +406,9 @@
 
                     <div class="emails">
 
-                        <h3>Desarrollado por</h3>
-                        <p>Álvaro Jiménez&copy;</p>
-                        <p>alvarojimgil12@gmail.com</p>
+                        <p>
+                            Developer - ÁlvaroJiménez&copy;
+                        </p>
 
                     </div>
 
@@ -427,9 +433,9 @@
 
             <article class="nav-buttons">
 
-                <a href="#">
+                <a href="#" id="prev-button">
 
-                    <span class="mterial-icons md-48">
+                    <span class="material-icons md-48">
 
                         arrow_back_ios
 
@@ -437,9 +443,9 @@
 
                 </a>
 
-                <a href="#">
+                <a href="#" id="next-button">
 
-                    <span class="mterial-icons md-48">
+                    <span class="material-icons md-48">
 
                         arrow_forward_ios
 
@@ -451,7 +457,7 @@
 
             <article class="close">
 
-                <a href="#">
+                <a href="#" id="close-button">
 
                     <span class="material-icons md-48">
 
@@ -720,7 +726,7 @@
 
                 <div class="title">
 
-                    <h2>GUNS 'N' ROSES- APPETITE FOR DESTRUCTION</h2>
+                    <h2>GUNS 'N' ROSES - APPETITE FOR DESTRUCTION</h2>
 
                 </div>
 
@@ -779,6 +785,9 @@
 
 
     <section id="screen"></section>
+
+    <script src="main.js"></script>
+
     
 </body>
 </html>
